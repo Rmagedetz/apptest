@@ -10,7 +10,7 @@ def get_telegram_id():
     if telegram_id:
         st.success(f"Telegram ID: {telegram_id}")
     else:
-        st.error("Telegram ID не найден в параметрах URL")
+        st.error("Telegram ID не найден в параметрах -URL")
 
 
 # Вызов функции
